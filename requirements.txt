@@ -1,0 +1,2 @@
+python-dotenv
+auth0-python
