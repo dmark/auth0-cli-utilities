@@ -105,4 +105,4 @@ venv.bak/
 
 # local ignores
 output/
-.swp
+*.swp

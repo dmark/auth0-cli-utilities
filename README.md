@@ -100,3 +100,12 @@ A work in progress. Largely a copy of the `db_backup.py` script, but this one
 is intended to provide a list of all the unique keys in your `user_metadata`
 and `app_metadata`. Useful for checking your metadata fields for typos or new
 fields that someone has snuck in.
+
+## `getcxnid.py`
+
+Returns the connection ID for the specified connection.
+
+```
+$ python getcxnid.py -c "Username-Pssword-Authentication"
+```
+
