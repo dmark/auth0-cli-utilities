@@ -109,3 +109,11 @@ Returns the connection ID for the specified connection.
 $ python getcxnid.py -c "Username-Pssword-Authentication"
 ```
 
+## `getuser.py`
+
+Returns the specified user profile. Currently only supports getting a user by
+`user_id`. Get by email and by username is pending.
+
+```
+$ python getuser.py -i 'auth0|abc123'
+```
