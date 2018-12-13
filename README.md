@@ -93,3 +93,10 @@ backing up all your backup groups.
   }
 }
 ```
+
+## `list_metadata_fields.py`
+
+A work in progress. Largely a copy of the `db_backup.py` script, but this one
+is intended to provide a list of all the unique keys in your `user_metadata`
+and `app_metadata`. Useful for checking your metadata fields for typos or new
+fields that someone has snuck in.
