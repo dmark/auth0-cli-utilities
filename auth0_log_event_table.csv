@@ -1,4 +1,4 @@
-﻿event_code,event_type,event_description,additional_info
+event_code,event_type,event_description,additional_info
 admin_update_launch,Auth0 Update Launched,,
 api_limit,Rate Limit On API,The maximum number of requests to the API in given time has reached.,Rate Limit Policy
 cls,Code/Link Sent,Passwordless login code/link has been sent,Passwordless
