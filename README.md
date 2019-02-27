@@ -1,8 +1,13 @@
 # auth0-cli-utilities
-Random Auth0 command line tools.
+Random Auth0 command line tools. Most of these use the Client Crednetials
+grant to authorize access to your tenant's Management API. This can be
+dangerous! Always minimize the scopes you have assigned to your application,
+and *always* check what tenant you are currently pointing at in your `.env`
+file.
 
 ## Setup
 
+### virtualenv & Auth0 Python SDK
 These tools use the [Auth0 Python SDK](https://github.com/auth0/auth0-python).
 Start with the usual [virtualenv](https://virtualenv.pypa.io/en/latest/#)
 stuff.
@@ -15,7 +20,22 @@ $ pip install -r requirements
 $ python test.py
 ```
 
-`test.py` will dump the configuration for your tenant's connections if
+### The Auth0 Application (Client)
+
+You will need to set up a machine-to-machine (M2M) application in your Auth0
+tenant. This M2M
+### The `.env` file
+
+The scripts will read tenant settings from the `.env` file, which will be
+formatted as follows:
+
+AUTH0_DOMAIN=[YOUR_TENANT].auth0.com
+AUTH0_CLIENT_ID=[CLIENT_ID]
+AUTH0_CLIENT_SECRET=[CLIENT_SECRET]
+AUTH0_CALLBACK_URL=http://localhost:3000/callback
+API_IDENTIFIER=https://[YOUR_TENANT].auth0.com/api/v2/
+
+Running `test.py` will dump the configuration for your tenant's connections if
 everything is working correctly.
 
 ## `db_backup.py`
