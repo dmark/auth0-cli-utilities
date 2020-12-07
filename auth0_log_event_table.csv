@@ -34,7 +34,7 @@
 "fepotpft","Failed Exchange","Failed exchange of Passwordless OTP for Access Token",""
 "fercft","Failed Exchange","Failed Exchange of Password and MFA Recovery code for Access Token",""
 "fertft","Failed Exchange","Failed Exchange of Refresh Token for Access Token",""
-"ferrt",'Failed Exchange","Failed Exchange of Rotating Refresh Token",""
+"ferrt","Failed Exchange","Failed Exchange of Rotating Refresh Token",""
 "flo","Failed Logout","User logout failed","Logout"
 "fn","Failed Sending Notification","Failed to send email notification","Emails"
 "fp","Failed Login (Incorrect Password)","",""
