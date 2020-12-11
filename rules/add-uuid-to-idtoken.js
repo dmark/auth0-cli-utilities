@@ -1,5 +1,7 @@
 function (user, context, callback) {
-  var namespace = "https://leanangle.io/claims/";
+  // recommended namespace is a URL-formatted string
+  // var namespace = "https://${YOUR_DOMAIN}/claims/"
+  var namespace = "https://sr2.ca/claims/";
   
   user.app_metadata = user.app_metadata || {};
   user.app_metadata.uuid = user.app_metadata.uuid || {};
