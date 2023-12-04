@@ -80,7 +80,7 @@
 "mgmt_api_read","Management API read Operation","API GET operation returning secrets completed successfully",""
 "oidc_backchannel_logout_failed","Failed OIDC Back-Channel Logout request","Failed OIDC Back-Channel Logout request",""
 "oidc_backchannel_logout_succeeded","Successful OIDC Back-Channel Logout request","Successful OIDC Back-Channel Logout request",""
-"pla","Pre-login risk assessment","Bot Detection risk assessment","",""
+"pla","Pre-login risk assessment","Bot Detection risk assessment",""
 "pwd_leak","Breached password","Someone behind the IP address: ip attempted to login with a leaked password.","Anomaly Detection"
 "resource_cleanup","Refresh token excess warning","Emitted when resources exceeding defined limits were removed.",""
 "s","Success Login","Successful login event.",""
