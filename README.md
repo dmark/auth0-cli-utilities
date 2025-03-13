@@ -29,11 +29,13 @@ tenant. This M2M
 The scripts will read tenant settings from the `.env` file, which will be
 formatted as follows:
 
+```
 AUTH0_DOMAIN=[YOUR_TENANT].auth0.com
 AUTH0_CLIENT_ID=[CLIENT_ID]
 AUTH0_CLIENT_SECRET=[CLIENT_SECRET]
 AUTH0_CALLBACK_URL=http://localhost:3000/callback
 API_IDENTIFIER=https://[YOUR_TENANT].auth0.com/api/v2/
+```
 
 Running `test.py` will dump the configuration for your tenant's connections if
 everything is working correctly.
